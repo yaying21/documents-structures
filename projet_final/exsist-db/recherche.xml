@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<doc>
+	<div class="header">
+		<h1>La page de recherche</h1>
+	</div>
+	<div claas="taxte">
+		<p>Dans cette interface Vous pouvez trouver le fichier et le context où ils se trouvent 
+		en entrant l'un de ces six mots-clés ()</p>
+	</div>
+	<div class="formulaire">
+		<label>Entrez les mots-clé :</label>
+	</div>
+
+</doc>

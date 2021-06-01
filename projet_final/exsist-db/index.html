@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <style type="text/css">
+				
+					p{
+					padding-right: 15px;
+					padding-left: 15px;
+					}
+					nav{
+					padding-left :15px;
+					font-size : 20px;
+					}
+					.header {
+					    padding-bottom : 20px;
+					}
+					.objectif {
+					    font-size: 20px;
+					}
+				
+				</style>
+        </head>
+   <body>
+      <div>
+         <div class="header">
+            <h1 align="center">Présentation du projet</h1>
+         </div>
+      </div>
+      <div>
+         <p class="objectif">
+                    <i>L’objectif de ce projet est de réaliser une application web pour présenter des documents qui ont été traduits et alignés. </i>
+                </p>
+         <nav>
+                    <b>
+                        <a href="./recherche.html">Recherche</a>
+                    </b>
+                </nav>
+         <nav>
+                    <b>
+                        <a href="./display.html">Display</a>
+                    </b>
+                </nav>
+         <h3>La première étape du projet : la transformation HTML vers TMX :</h3>
+         <p>Les corpus en HTML sont des extraits de la bible en html, soit en français, soit en anglais. 
+            Le but de cette étape est de convertir les fichiers html français et anglais qui ont des contenus             identiques en un seul fichier xml tmx par un fichier xslt.Dans ce fichier xml, on peut trouver                plusieurs de balises "tu", il contient deux balises "tuv",chaque "tuv" a un segment français et un             segment anglais correspondPour le réaliser, d'abord, j'ai fait le nottoyage des fichier html,                 parce qu'ils ont des abréviation entité de nombre de caractères, par exmeple,des abréviations des             lettres accentuées (é,è,ô,etc) et des symboles spéciaux.En même temps, il faut effacer certain                d'attributes de balise p (",',-,etc). En suite, j'ai écrit un fichier de xslt qui peut transformer             les fichier html.
+         </p>
+         <h3>La deuxième étape du projet : la manipulation d'existe-db</h3>
+         <p>La deuxième étape est de créer une application sur exsite en utilisant les fichiers existants.                l'application a trois pages : index, rechercher et afficher. La page index décrit le processus de             mise en œuvre de ce projet et les problèmes rencontrés. La page d'affichage comporte des liens                vers cinq pages html qui montrent le contenu de cinq fichiers xml alignés en français et en                   anglais.Pour construire les pages, j'ai écrit un fichier xml et les ai transformé en fichiers html             en utilisant les fichiers xslt correspondants.
+         </p>
+         <h3>Les difficultés rencontrés :</h3>
+         <p>J'ai rencontré quelques difficultés dans la mise en œuvre de ce projet. La première étape est la              transformation, un processus qui nécessite l'écriture de nombreux fichiers xslt. haque fois que               j'ai écrit xlst, j'ai rencontré différentes erreurs. La deuxième est XQuery, lors de la mise en               œuvre de la page de recherche, j'ai dû écrire beaucoup de XQuery pour mettre en œuvre la page,                mais je n'ai pas pu terminer la page avec succès. La dernière chose est la manipulation d'exsit-db             , la lenteur de la réponse du logiciel, le fonctionnement lourd et il a predu automatiquement la              connexion occasionnelles.
+         </p>
+      </div>
+   </body>
+</html>
+</div>

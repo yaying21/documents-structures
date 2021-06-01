@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<doc>
+	<h1>
+		Cinq documents XML
+	</h1>
+		<p>Cette interface afficher cinq fichiers XML qui contiennet des segements alignés de français et anglais.</p>
+	<nav>
+		<lien url="">Bible_engfr-1</lien>
+		<lien url="">Bible_engfr-2</lien>
+		<lien url="">Bible_engfr-3</lien>
+		<lien url="">Bible_engfr-4</lien>
+		<lien url="">Bible_engfr-5</lien>
+	</nav>
+	
+</doc>

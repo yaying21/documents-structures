@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<doc>
+	<main>
+		<h1>Présentation du projet</h1>
+		<content>
+			<objectif>La première étape du projet </objectif>
+			<nav>
+				<lien url="">Recherche</lien>
+				<lien url="">Présentation</lien>
+			</nav>
+			<presentation>
+					<etape>
+						<h3>La première étape du projet : la transformation HTML vers TMX.</h3>
+						<p>Les corpus en HTML sont des extraits de la bible en html, soit en français, soit en anglais. 
+						Le but de cette étape est de convertir les fichiers html français et anglais qui ont des contenus identiques en un seul fichier xml tmx par un fichier xslt. 
+						Dans ce fichier xml, on peut trouver plusieurs de balises "tu", il contient deux balises "tuv", 
+						chaque "tuv" a un segment français et un segment anglais correspond</p>
+						<p>Pour le réaliser, d'abord, j'ai fait le nottoyage des fichier html, parce qu'ils ont des abréviation entité de nombre de caractères, par exmeple, 
+						des abréviations des lettres accentuées (é,è,ô,etc) et des symboles spéciaux. En même temps, il faut effacer certain d'attributes de balise p (",',-,etc.)</p>
+						<p>En suite, j'ai écrit un fichier de xslt qui peut transformer les fichier html.</p>
+					</etape>
+					<etape>
+						<h3>La deuxième étape du projet : .</h3>
+						<p>Ce projet conteint deux étapes : la transformation et la création du site.</p>
+						<p>La première étape : la transformation HTML vers TMX.</p>
+						<p>Les corpus en HTML sont des extraits de la bible en html, soit en français, soit en anglais. 
+						Le but de cette étape est de convertir les fichiers html français et anglais qui ont des contenus identiques en un seul fichier xml tmx par un fichier xslt. 
+						Dans ce fichier xml, on peut trouver plusieurs de balises "tu", il contient deux balises "tuv", 
+						chaque "tuv" a un segment français et un segment anglais correspond</p>
+						<p>Pour le réaliser, d'abord, j'ai fait le nottoyage des fichier html, parce qu'ils ont des abréviation entité de nombre de caractères, par exmeple, 
+						des abréviations des lettres accentuées (é,è,ô,etc) et des symboles spéciaux. En même temps, il faut effacer certain d'attributes de balise p (",',-,etc.)</p>
+						<p>En suite, j'ai écrit un fichier de xslt qui peut transformer les fichier html.</p>
+					</etape>
+					<etape>
+						<h3>Les difficultés rencontrés</h3>
+						<p>Ce projet conteint deux étapes : la transformation et la création du site.</p>
+						<p>La première étape : la transformation HTML vers TMX.</p>
+						<p>Les corpus en HTML sont des extraits de la bible en html, soit en français, soit en anglais. 
+						Le but de cette étape est de convertir les fichiers html français et anglais qui ont des contenus identiques en un seul fichier xml tmx par un fichier xslt. 
+						Dans ce fichier xml, on peut trouver plusieurs de balises "tu", il contient deux balises "tuv", 
+						chaque "tuv" a un segment français et un segment anglais correspond</p>
+						<p>Pour le réaliser, d'abord, j'ai fait le nottoyage des fichier html, parce qu'ils ont des abréviation entité de nombre de caractères, par exmeple, 
+						des abréviations des lettres accentuées (é,è,ô,etc) et des symboles spéciaux. En même temps, il faut effacer certain d'attributes de balise p (",',-,etc.)</p>
+						<p>En suite, j'ai écrit un fichier de xslt qui peut transformer les fichier html.</p>
+					</etape>					
+			</presentation>
+		</content>
+	</main>
+</doc>

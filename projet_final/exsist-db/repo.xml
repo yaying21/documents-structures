@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>afficher du travail de final</description>
+    <author>yaying</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>projetFinal</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="yaying" group="dba" mode="rw-rw-r--"/>
+<deployed>2021-06-01T14:52:03.44+02:00</deployed>
+</meta>

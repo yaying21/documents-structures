@@ -2,7 +2,7 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     
-    <sch:pattern >
+    <sch:pattern>
         <sch:rule context="fermeture">
             <sch:assert test="not(text())">L'élément <sch:name/> ne doit pas contenir de texte.</sch:assert>
         </sch:rule>
